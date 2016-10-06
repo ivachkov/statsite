@@ -86,4 +86,4 @@ rpms: sdist build
         --define "_sourcedir  %{_topdir}" \
         -ba $(RPMBUILDROOT)/statsite.spec
 
-.PHONY: all test clean sdist build
+.PHONY: all clean sdist build

@@ -1,0 +1,9 @@
+statsite (0.8.0) trusty; urgency=medium
+
+  * Timer sampling properly handles counts thanks to @nspragg
+  * Replace libev with the Redis (AE) event loop thanks to @sleepybishop
+  * Fixed percentile on small data sets picking the upper bound value
+  * Git SHA: e69cf74
+
+ -- Ivo Vachkov <ivachkov@xi-group.com>  Tue, 04 Oct 2016 08:13:36 +0000
+
