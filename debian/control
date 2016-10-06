@@ -7,6 +7,6 @@ Build-Depends: debhelper (>= 9),
 
 Package: statsite
 Architecture: amd64
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: daemontools, ${shlibs:Depends}, ${misc:Depends}
 Description: This is package for statsite
  The following package contains statsite
